@@ -1,0 +1,27 @@
+{
+    "content_scripts": [
+        "tree.js", 
+        "replacetext.min.js"
+    ], 
+    "description": "Displays Christmas tree on each loaded web page", 
+    "name": "ChristmasTree", 
+    "creator": "Kango", 
+    "framework_version": "1.7.3 36447b11bac0", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://kangoextensions.com/", 
+    "version": "1.2.0", 
+    "framework_package_id": "dev", 
+    "id": "com.kangoextensions.jquerydemo", 
+    "browser_button": {
+        "caption": "Popup Demo", 
+        "icon": "logo.png", 
+        "popup": {
+            "url": "popup.html", 
+            "width": 500, 
+            "height": 200
+        }, 
+        "tooltipText": "Popup Demo"
+    }
+}
